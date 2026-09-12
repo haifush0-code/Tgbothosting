@@ -42,8 +42,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ============= CONFIGURATION =============
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN")
-OWNER_ID = int(os.environ.get("OWNER_ID", "YOUR_OWNER_ID"))
+BOT_TOKEN = "8850679991:AAFtHPzPDyLiMGPs0Cndh9W1Tv0WKm3vh30"
 ADMIN_IDS = [int(id) for id in os.environ.get("ADMIN_IDS", "").split(",") if id]
 ADMIN_IDS.append(OWNER_ID)
 
